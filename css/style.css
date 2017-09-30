@@ -1,0 +1,184 @@
+/*@import url(https://fonts.googleapis.com/css?family=Bungee+Shade);@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);body{margin:0;padding:0;font-family:Barrio,cursive}.container{margin:0 auto;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)}.box{text-align:center;opacity:.8;padding:2px}.box a{text-transform:uppercase;text-decoration:none;background:#FDC735;padding:1.5em;display:block;color:#00AEEF;font-size:25px;min-height:333px}.box img{width:5em;display:inline-block;max-width:100%;transform:translateY(40%);-webkit-transform:translateY(40%);-moz-transform:translateY(40%);transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out}.box h1{margin:15px auto 0;transform:translateY(100%);-webkit-transform:translateY(100%);-moz-transform:translateY(100%);opacity:0;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out}.box:hover h1{transform:translateY(100%);-webkit-transform:translateY(100%);-moz-transform:translateY(100%);opacity:1}.container:after,.container:before{left:50%;font-size:30em;color:#a9a9a9;z-index:-1;opacity:.3;position:absolute}.box:hover img{width:4em;transform:translateY(40%);-webkit-transform:translateY(40%);-moz-transform:translateY(40%)}.container:after{content:"online";top:0;transform:translate(-50%,-65%) rotate(-8deg)}.container:before{content:"support";bottom:0;transform:translate(-50%,50%) rotate(-15deg)}.logo:after{position:absolute;content:"";background:url(../images/Shikhbe-shobai-logo.png) no-repeat;left:2%;top:2%;width:300px;height:200px;background-size:60%;transform:translate(-2%,-2%)}@media (max-width:1199px){.box a{padding:1.5em;min-height:216px}.box h1{font-size:20px}.box img{width:4em;transform:translateY(20%);-webkit-transform:translateY(20%);-moz-transform:translateY(20%)}.box:hover img{width:3em}.box:hover h1{transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0)}}@media (max-width:991px){.box a{padding:1.5em;min-height:216px}.box h1{font-size:20px}.box img{width:4em;transform:translateY(20%);-webkit-transform:translateY(20%);-moz-transform:translateY(20%)}.box:hover img{width:3em}.box:hover h1{transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0)}}@media (max-width:767px){.box h1{font-size:1em;margin:25px auto 0}.box a{padding:1em;min-height:220px}.container{width:450px}.box img{width:4em}.box:hover img{width:3em;transform:translateY(20%);-webkit-transform:translateY(20%);-moz-transform:translateY(20%)}.box:hover h1{transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0)}}@media (max-width:499px){.box h1{font-size:40px}.container{width:auto!important;position:static;top:0;left:0;transform:translate(0,26%)}.box img{transform:translateY(40%);-webkit-transform:translateY(40%);-moz-transform:translateY(40%)}.box a{min-height:250px}.box:hover h1{transform:translateY(0);-webkit-transform:translateY(0);-moz-transform:translateY(0)}.container:after,.container:before{display:none}}a[data-toggle=modal]{margin:5px}.title{color:#757575;font-weight:700}.modal{text-align:left;font-family:'Open Sans Condensed',sans-serif;top:50%;transform:translateY(-50%)}.modal-content{border:none;border-radius:2px;box-shadow:0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21)}.modal-header{border-bottom:0;padding:15px 26px 0}.modal-title{font-size:30px;margin-bottom:15px;font-weight:100}.modal-body{border-bottom:0;font-size:15px;padding:5px 26px 10px}.modal-footer{border-top:0;padding:0 26px 26px}.btn-default,.btn-primary{border:none;border-radius:2px;display:inline-block;color:#fff;text-align:center;height:auto;line-height:36px;outline:0;font-size:20px;padding:6px 2.5em;background-color:#01AFF0;text-transform:uppercase;vertical-align:middle;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);letter-spacing:.5px;transition:.2s ease-out}.btn-default:active,.btn-default:focus,.btn-default:hover{background-color:#0596cc;color:#fff;box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)}.modal form input[type=text]{padding:12px;height:inherit;font-size:16px;border-radius:0;-webkit-box-shadow:inset 0 0 0 rgba(0,0,0,.075);box-shadow:inset 0 0 0 rgba(0,0,0,.075)}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+body{
+	font-family: 'Fjalla One', sans-serif;
+		background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQoU2NkYGAwZmBgOMuAACA+CKCIMSIpADGRNaEYgKwQ3WQUjTCF6CYhWw2WAynEpgjmIpg7jUlSiM0TWK2GWUOUZ7ApxggeogIcABHJFtftKVfJAAAAAElFTkSuQmCC);
+
+}
+.logo{}
+.container {
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.watermark{
+position: relative;
+height: 100vh;
+    overflow: hidden;
+}
+.watermark:after,
+.watermark:before {
+    font-size: 14em;
+    color: #a9a9a9;
+    z-index: -1;
+    opacity: .3;
+    position: absolute
+}
+
+.watermark:after {
+	    content: "online";
+    top: 50%;
+    transform: translate(-30%, -50%) rotate(-90deg);
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.watermark:before {
+    content: "support";
+    top:50%;   
+    transform:translate(36%,-50%) rotate(-90deg);
+    right: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.support-box{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.support-box .logo{
+	
+}
+.support-box .logo img{
+	    min-width: 650px;
+}
+
+
+.schedule{/*
+	    position: relative; 
+	    padding: 60px 20px;
+	    text-align: center;
+	    display: inline-block;
+	    top: 20%;
+	    left: 50%; 
+	    z-index: 0;*/
+	       
+
+}
+ 
+.schedule:before{
+/*	content: "";
+	position: absolute;
+	background: red;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #eee;
+	border-radius: 50% 0% 50% 50%;
+	z-index: -1;
+	box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.56);
+	border: 2px solid #fff;
+	transform: rotate(-45deg);*/
+}
+.schedule p{
+    font-size: 150%;
+    letter-spacing: 10px;
+}
+.schedule h1{
+	margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 0px rgba(82, 82, 82, 0.63)
+}
+
+
+.schedule{
+animation: schedule_animation ease 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: schedule_animation ease 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: schedule_animation ease 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: schedule_animation ease 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: schedule_animation ease 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+ animation-direction: alternate; /* or: normal */
+text-align: center;
+}
+
+
+@keyframes schedule_animation{
+  0% {
+    opacity:0;
+    transform:  translate(0px,60px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,20px)  ;
+  }
+}
+
+@-moz-keyframes schedule_animation{
+  0% {
+    opacity:0;
+    transform:  translate(0px,60px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,20px)  ;
+  }
+}
+
+@-webkit-keyframes schedule_animation {
+  0% {
+    opacity:0;
+    transform:  translate(0px,60px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,20px)  ;
+  }
+}
+
+@-o-keyframes schedule_animation {
+  0% {
+    opacity:0;
+    transform:  translate(0px,60px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,20px)  ;
+  }
+ }
+
+@-ms-keyframes schedule_animation {
+  0% {
+    opacity:0;
+    transform:  translate(0px,60px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,20px)  ;
+  }
+
+}
